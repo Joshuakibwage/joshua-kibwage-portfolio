@@ -1,10 +1,11 @@
+import Navbar from "./components/Navbar"
 
 
 function App() {
 
   return (
     <>
-      <p className="bg-fuchsia-400 text-4xl">Hello world!</p> 
+      <Navbar />
     </>
   )
 }

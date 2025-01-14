@@ -2,13 +2,9 @@
 import {
   DiHtml5,
   DiCss3,
-  DiSass,
   DiBootstrap,
   DiJavascript1,
   DiReact,
-  DiNodejsSmall,
-  DiMongodb,
-  DiGithubBadge,
 } from "react-icons/di"
 import Reveal from "./Reveal"
 import { SiTailwindcss } from "react-icons/si";
@@ -33,7 +29,7 @@ const Skills = () => {
         <Reveal>
         <h2 className="text-3xl font-bold mb-4 text-center">Skills</h2>
         <p className="text-center mb-8">
-            I worked on various frontend and fullstack projects. Check them <a href="#" className="underline">there</a>.
+            I have worked on various frontend projects. Check them <a href="#" className="underline">here</a>.
         </p>
 
         <div className="flex flex-col md:flex-row justify-center space-y-8 md:space-y-0 md:space-x-8

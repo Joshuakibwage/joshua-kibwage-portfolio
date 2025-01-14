@@ -1,4 +1,4 @@
-
+import { SiTailwindcss } from "react-icons/si";
 import profile from "../assets/profilePic.jpg";
 import { TypeAnimation } from "react-type-animation";
 import ShinyEffect from "./ShinyEffect";
@@ -11,7 +11,6 @@ import {
   DiCss3,
   DiHtml5,
   DiJavascript1,
-  DiNodejsSmall,
   DiReact,
 } from "react-icons/di";
 import { motion } from "framer-motion";
@@ -31,14 +30,14 @@ const Hero = () => {
                     sequence={[
                         "Front-End Developer",
                         1000,
-                        "Web Designer",
+                        "Coder",
                         1000,
                         "Tech Enthusiast",
                         1000
                     ]}
                     speed={50}
                     repeat={Infinity}
-                    className="font-bold text-gray-400 text-xl md:text-5xl italic- mb-4"
+                    className="font-bold text-gray-400 text-xl md:text-5xl italic mb-4"
                 />
 
                 <motion.p
@@ -115,7 +114,7 @@ const Hero = () => {
             <DiCss3 className="text-blue-600 mx-2" />
             <DiJavascript1 className="text-yellow-500 mx-2" />
             <DiReact className="text-blue-500 mx-2" />
-            <DiNodejsSmall className="text-green-500 mx-2" />
+            <SiTailwindcss className="text-blue-500 mx-2" />
 
         </motion.div>
 

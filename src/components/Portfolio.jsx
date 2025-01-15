@@ -1,5 +1,6 @@
 import { AiOutlineGithub } from "react-icons/ai";
 import project1 from "../assets/projectsImage.png";
+import project2 from "../assets/project2-image.png";
 
 
 const projects = [
@@ -10,6 +11,15 @@ const projects = [
         links: {
             site: "https://travel-planner-ebon.vercel.app/",
             github: "https://github.com/Joshuakibwage/travel-planner"
+        },
+    },
+    {
+        img: project2,
+        title: "project #2",
+        description: "Todo list project",
+        links: {
+            site: "https://mytodolist-eosin.vercel.app/",
+            github: "https://github.com/Joshuakibwage/react-todo"
         },
     }
 ]

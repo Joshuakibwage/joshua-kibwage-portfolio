@@ -6,7 +6,9 @@ const Footer = () => {
         <div className="space-y-4">
             
             <div className="flex flex-row gap-6 text-gray-400 text-4xl ">
-                <a href=""><FaGithubSquare/></a>
+                <a href="https://github.com/Joshuakibwage" target="_blank" >
+                  <FaGithubSquare/>
+                </a>
                 <a href=""><FaInstagram/></a>
             </div>
         </div>

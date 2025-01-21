@@ -48,7 +48,7 @@ const Hero = () => {
                 className="text-gray-200 md:text-7xl text-5xl tracking-tight mb-4"
                 >
                     HEY, I AM <br/>
-                    <span className="text-purple-500">JOSHUA KIBWAGE</span>
+                    <span className="text-yellow-500">JOSHUA KIBWAGE</span>
                 </motion.p>
 
                 <motion.p
@@ -58,7 +58,7 @@ const Hero = () => {
                 transition={{ duration: 1, delay: 1 }}
                 className="text-gray-300 max-w-[300px] md:max-w-[500px] md:text-2xl text-lg mb-6"
                 >
-                    I am a passionate fullstack developer with over 5 years of experience.
+                    I am a passionate front-end developer with over 5 years of experience.
                 </motion.p>
 
                 <motion.div
@@ -70,18 +70,22 @@ const Hero = () => {
                 >
                     <motion.button whileHover={{ scale: 1.05, boxShadow: "0px 0px 8px rgba(0, 0, 0, 0.3)" }}
                         className="z-10 cursor-pointer font-bold text-gray-200 md:w-auto p-4 border
-                        border-purple-400 rounded-xl"     
+                        border-yellow-400 rounded-xl"     
                     >
                         Download CV
                     </motion.button>
 
-                    <div className="flex gap-6 flex-row text-4xl md:text-6xl text-purple-400 z-20">
+                    <div className="flex gap-6 flex-row text-4xl md:text-6xl text-yellow-400 z-20">
                         <motion.a whileHover={{ scale: 1.2 }} href="#">
-                            <AiOutlineGithub/>
+                            <a href="https://github.com/Joshuakibwage" target="_blank">
+                                <AiOutlineGithub/>
+                            </a>
                         </motion.a>
 
                         <motion.a whileHover={{ scale: 1.2 }} href="#">
-                            <AiOutlineLinkedin/>
+                            <a href="www.linkedin.com/in/joshua-kibwage-b19556321" target="_blank">
+                                <AiOutlineLinkedin/>
+                            </a>
                         </motion.a>
 
                         <motion.a whileHover={{ scale: 1.2 }} href="#">

@@ -26,8 +26,8 @@ const projects = [
 
 const Portfolio = () => {
   return (
-    <div className="max-w-[1000px] mx-auto p-6 md:my-20 " id="portfolio">
-        <h2 className="text-3xl font-bold text-gray-200 mb-8">Projects</h2>
+    <div className="max-w-[1000px] mx-auto p-6 md:my-20 " id="projects">
+        <h2 className="text-3xl font-bold text-gray-200 mb-8 text-center">Projects</h2>
         {projects.map((project, index) => (
             <div key={index} 
             className={`flex flex-col md:flex-row ${index % 2 !== 0 ? 'md:flex-row-reverse' : ''} mb-12`}
